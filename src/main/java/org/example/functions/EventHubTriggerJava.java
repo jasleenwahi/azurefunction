@@ -13,7 +13,7 @@ public class EventHubTriggerJava {
 
 
     /**
-     * This function will be invoked when an event is received from Event Hub.
+     * This function will be invoked when an event is received from Azure Event Hub.
      */
     @FunctionName("EventHubTriggerJava")
     public void run(
